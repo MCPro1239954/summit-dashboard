@@ -1,0 +1,31 @@
+:root {
+  --backgroundColor: #002036;
+  --textColor: #FFFFFF;
+  --accentColor: #0099FF;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+}
+
+.centered {
+  text-align: center;
+}
+
+.large {
+  font-size: 3rem;
+}
+
+header {
+  margin: 1em;
+  padding: 0.05em;
+  border: 2px solid var(--accentColor);
+}
